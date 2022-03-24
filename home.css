@@ -1,5 +1,5 @@
 header{
-    height: 250px;
+    height: 130px;
     width: 100%;
     background-color: rgb(255, 255, 255);
     
@@ -49,8 +49,11 @@ header{
     color: rgb(82, 75, 75);
     font-size: 13px;
 }
-nav{
+#botnav{
     width: 100%;
+}
+nav{
+  
     position: -webkit-sticky; /* Safari */
     position: sticky;
     margin: 0;
@@ -122,7 +125,8 @@ nav{
  
 
 .onehalf{
-     height: 3200px;
+     height:auto;
+     max-height: 2700px;
     width: 100%;
     margin-top: -13px;
      
