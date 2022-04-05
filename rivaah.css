@@ -86,6 +86,14 @@ header{
 .dropdown:hover .dropdown-content{
     display: block;
 }
+.DD{
+    background-color: whitesmoke;
+    border:none;
+    width: 100%;
+    text-align: center;
+    height:55px;
+    margin-top: 20px;
+}
 .youtube{
     /*background-image: url("https://i.ibb.co/3mbHL3Q/evie-s-kq-Jf-P-lrl-8-unsplash.jpg");*/
     background-image: url("https://i.ibb.co/cbPFGjq/evie-s-IPVdy-P8m-Q-unsplash.jpg");
@@ -146,45 +154,51 @@ header{
     height: 600px; 
    
 }
-.csa{
  
+.csa{
     margin-top:2%;
     height: 48%;
     width: 100%;
     position:relative;
-}
-
-.csa>img{
+  }
+  
+  .image {
+    display: block;
     width: 100%;
     height: 100%;
-}
-.cna{
-   
-        transition: .5s ease;
-        opacity: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        text-align: center;
-
-      
-    margin-top:2%;
-    height: 58%;
-    width: 100%;
+  }
   
-text-align: center;
-background-color:rgba(255, 0, 0, 0.342)
-}
-.csa:hover{
-    BOX-shadow:0px 0px 10px gray;
-    opacity:0.3;
-    
-}
-.csa:hover .cna{
-    display:block;
-}
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #db7474a1;
+  }
+  
+  .csa:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: rgb(0, 0, 0);
+   
+    position: absolute;
+     
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+ 
+ 
+ 
 .csb{
     
     margin-top:4%;
@@ -246,43 +260,6 @@ background-color:rgba(255, 0, 0, 0.342)
     height: 100%;
 }
 
-.container {
-    position: relative;
-    width: 50%;
-  }
-  
-  .image {
-    display: block;
-     
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #db7474a1;
-  }
-  
-  .container:hover .overlay {
-    opacity: 1;
-  }
-  
-  .text {
-    color: white;
-   
-    position: absolute;
-     
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
 
   .bgimage{
       margin-left: 10%;

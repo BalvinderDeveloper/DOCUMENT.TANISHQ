@@ -87,7 +87,14 @@ header{
     display: block;
 }
  
-
+.DD{
+    background-color: whitesmoke;
+    border:none;
+    width: 100%;
+    text-align: center;
+    height:55px;
+    margin-top: 20px;
+}
  
 
 .onehalf{
