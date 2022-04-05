@@ -95,7 +95,8 @@ header{
 }
 
  .utube{
-     
+    height: auto;
+    margin-bottom: 50px; 
      width: 76%;
      margin-left: 12%;
      
@@ -116,9 +117,10 @@ header{
     
 }
 .vid{
-    width: 100%;
+    width: 78%;
+    margin-left:14% ;
     height: 550px;
-    border: 1px solid black;
+    
     
 }
 .vid>video{
@@ -331,14 +333,87 @@ background-color:rgba(255, 0, 0, 0.342)
   height: auto;
   width: 80%;
 }
-#st1{
+#sti{
     width: 80%;
     margin-left: 10%;
+  
 }
-#stI>img{
-    height: auto;
+.st1{
+    height: 375px;
     width: 100%;
+    
+    animation: awadh 5s infinite;
 }
+@keyframes  awadh {
+    0%{background-image: url("https://staticimg.titan.co.in/Tanishq/Banners/rivaah/images/2021/awadh-4.png");
+         background-size: 100% 375px ;}
+      25%{background-image: url( "https://staticimg.titan.co.in/Tanishq/Banners/rivaah/images/2021/in-bride1.png");
+          background-size: 100% 375px;}
+      50%{background-image: url("https://staticimg.titan.co.in/Tanishq/Banners/rivaah/images/2021/awadh-2.png");
+          background-size: 100% 375px  ;}
+        75%{background-image: url(" https://staticimg.titan.co.in/Tanishq/Banners/rivaah/images/2021/awadh-3.png");
+              background-size: 100% 375px ;}
+       100%{background-image: url("https://staticimg.titan.co.in/Tanishq/Banners/rivaah/images/2021/awadh-4.png");
+         background-size: 100% 375px ;}
+         
+   }
+.st2{
+    height: 375px;
+    width: 100%;
+   
+    animation: bihar 5s infinite;
+}
+@keyframes  bihar {
+    0%{background-image: url("https://staticimg.titan.co.in/Tanishq/Banners/rivaah/images/2021/bihar-4.png");
+         background-size: 100% 375px ;}
+      25%{background-image: url( "https://staticimg.titan.co.in/Tanishq/Banners/rivaah/images/2021/in-bride2.png ");
+          background-size: 100% 375px;}
+      50%{background-image: url("https://staticimg.titan.co.in/Tanishq/Banners/rivaah/images/2021/bihar-2.png ");
+          background-size: 100% 375px  ;}
+        75%{background-image: url(" https://staticimg.titan.co.in/Tanishq/Banners/rivaah/images/2021/bihar-3.png");
+              background-size: 100% 375px ;}
+       100%{background-image: url("https://staticimg.titan.co.in/Tanishq/Banners/rivaah/images/2021/bihar-4.png ");
+         background-size: 100% 375px ;}
+         
+   } 
+.st3{
+    height: 375px;
+    width: 100%;
+   
+    animation: punjab 5s infinite;
+}
+@keyframes punjab {
+    0%{background-image: url("https://staticimg.titan.co.in/Tanishq/Banners/rivaah/images/2021/punjab-2.png ");
+         background-size: 100% 375px ;}
+      25%{background-image: url( "https://staticimg.titan.co.in/Tanishq/Banners/rivaah/images/2021/in-bride3.png");
+          background-size: 100% 375px;}
+      50%{background-image: url(" https://staticimg.titan.co.in/Tanishq/Banners/rivaah/images/2021/punjab-3.png");
+          background-size: 100% 375px  ;}
+        75%{background-image: url("https://staticimg.titan.co.in/Tanishq/Banners/rivaah/images/2021/punjab-4.png ");
+              background-size: 100% 375px ;}
+       100%{background-image: url(" https://staticimg.titan.co.in/Tanishq/Banners/rivaah/images/2021/punjab-2.png");
+         background-size: 100% 375px ;}
+         
+   } 
+.st4{
+    height: 375px;
+    width: 100%;
+   
+    animation: sri 5s infinite;
+}
+@keyframes sri {
+    0%{background-image: url(" https://staticimg.titan.co.in/Tanishq/Banners/rivaah/images/2021/srinagar-4.png");
+         background-size: 100% 375px ;}
+      25%{background-image: url( "https://staticimg.titan.co.in/Tanishq/Banners/rivaah/images/2021/in-bride1.png ");
+          background-size: 100% 375px;}
+      50%{background-image: url("https://staticimg.titan.co.in/Tanishq/Banners/rivaah/images/2021/srinagar-3.png ");
+          background-size: 100% 375px  ;}
+        75%{background-image: url("https://staticimg.titan.co.in/Tanishq/Banners/rivaah/images/2021/srinagar-2.png ");
+              background-size: 100% 375px ;}
+       100%{background-image: url(" https://staticimg.titan.co.in/Tanishq/Banners/rivaah/images/2021/srinagar-4.png");
+         background-size: 100% 375px ;}
+         
+   }   
 .rivword{
     width:100%;
     height:auto;
