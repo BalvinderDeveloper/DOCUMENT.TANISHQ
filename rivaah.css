@@ -135,6 +135,11 @@ header{
     width: 100%;
     height: 550px;
 }
+iframe {
+    border: 0;
+    width: 100%;
+    height: 550px;
+}
 .karigiri{
    
     background-image: url("https://i.ibb.co/LzZjR39/magda-lukas-OZh-Yg-Zh0b-Ag-unsplash.jpg");
@@ -168,7 +173,7 @@ header{
     height: 100%;
   }
   
-  .overlay {
+  .overlay1 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -178,58 +183,132 @@ header{
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #db7474a1;
+    background-color: #00000086;
   }
   
-  .csa:hover .overlay {
+  .csa:hover .overlay1 {
     opacity: 1;
   }
   
-  .text {
-    color: rgb(0, 0, 0);
-   
-    position: absolute;
-     
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
+  .text1 {
+    
+        color: rgb(255, 255, 255);
+        position: absolute;
+       font-family:"Lucida Calligraphy" ;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 60px;
   }
-
+.text1>h3{
+    font-size: 24px;
+    text-decoration: underline;
+}
+.text1>p{
+    font-size: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif\;
+}
  
  
  
 .csb{
-    
+    position:relative;
     margin-top:4%;
     height: 48%;
     width: 100%;
 }
-
-.csb>img{
+ 
+  
+  .image {
+    display: block;
     width: 100%;
     height: 100%;
+  }
+  
+  .overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #00000086;
+  }
+  
+  .csb:hover .overlay2 {
+    opacity: 1;
+  }
+  
+  .text2{
+    
+        color: rgb(255, 255, 255);
+        position: absolute;
+       font-family:"Lucida Calligraphy" ;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 60px;
+  }
+.text2>h3{
+    font-size: 24px;
+    text-decoration: underline;
 }
-.cn{
-    display: none;
+.text2>p{
+    font-size: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif\;
 }
-.colb{
+
+ .colb{
     margin: 2%;
     height: 600px; 
      
 }
 .csc{
-    
+    position:relative;
     margin-top:2%;
      height: 98%;
      width: 100%;
 }
-.csc>img{
+.image {
+    display: block;
     width: 100%;
     height: 100%;
-}
-.cn{
+  }
+  
+  .overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #00000086;
+  }
+  
+  .csc:hover .overlay3 {
+    opacity: 1;
+  }
+  
+  .text3{
     
+        color: rgb(255, 255, 255);
+        position: absolute;
+       font-family:"Lucida Calligraphy" ;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 230px;
+  }
+.text3>h3{
+    font-size: 24px;
+    text-decoration: underline;
+}
+.text3>p{
+    font-size: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif\;
 }
 .colc{
     margin: 2%;
@@ -237,29 +316,97 @@ header{
      
 }
 .csd{
-    
+    position:relative;
     margin-top:2%;
      height: 48%;
      width: 100%;
 }
-.csd>img{
+.image {
+    display: block;
     width: 100%;
     height: 100%;
-}
-.cn{
+  }
+  
+  .overlay4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #00000086;
+  }
+  
+  .csd:hover .overlay4 {
+    opacity: 1;
+  }
+  
+  .text4{
     
+        color: rgb(255, 255, 255);
+        position: absolute;
+       font-family:"Lucida Calligraphy" ;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 60px;
+  }
+.text4>h3{
+    font-size: 24px;
+    text-decoration: underline;
+}
+.text4>p{
+    font-size: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif\;
 }
 .cse{
+    position:relative;
     margin-top:4%;
     height: 48%;
     width: 100%;
 }
-
-.cse>img{
+.image {
+    display: block;
     width: 100%;
     height: 100%;
+  }
+  
+  .overlay5 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #00000086;
+  }
+  
+  .cse:hover .overlay5 {
+    opacity: 1;
+  }
+  
+  .text5{
+    
+        color: rgb(255, 255, 255);
+        position: absolute;
+       font-family:"Lucida Calligraphy" ;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 60px;
+  }
+.text5>h3{
+    font-size: 24px;
+    text-decoration: underline;
 }
-
+.text5>p{
+    font-size: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif\;
+}
 
   .bgimage{
       margin-left: 10%;
@@ -426,8 +573,19 @@ header{
     margin-top: -13px;
      
 }
-#cpic{
-    height:auto;
+ #previous{
+     margin-left: -107px;
+     width: 15%;
+     height: 8%;
+     position: absolute;
+    top: 42%;
+ }
+ #next{
+    margin-right: -107px;
+    width: 15%;
+    height: 8%;
+    position: absolute;
+   top: 42%;
 }
 /*.carousel{
     width: 100%;
