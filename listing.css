@@ -137,7 +137,7 @@ nav{
 }
 .filter{
      width: 25%;
-     height: 600px;
+     height: auto;
    
      float: left;
 }
@@ -159,7 +159,7 @@ nav{
     margin-top: 16px;
     font-size: 15px;
 }
-.abody>li{
+.acc>li{
     list-style: none;
 }
 .products{

@@ -8,10 +8,13 @@ header{
 }
 .top{
     height: auto;
-    width: 100%;
+    
       border-bottom: 1px solid gray;
       margin-top: -12px;
-
+      /* Make it stick/fixed */
+      top: 0; /* Stay on top */
+      width: 100%; /* Full width */
+     
   
 }
 .ut1{
@@ -128,8 +131,8 @@ header{
  }*/
  .category{
      height: auto;
-     width: 100%;
-     
+     width: 80%;
+     margin-left: 10%;
      margin-top: 40px;
  }
  .cheading{
@@ -139,7 +142,7 @@ header{
  }
  .box{
     
-    height:  240px;
+    height:  200px;
      float: left;
   
     text-align: center;
@@ -149,7 +152,7 @@ header{
  }
  .box:hover{
     box-shadow: 0px 0px 10px black;   
-    transform: scale(1.05);
+   
  }
  .boxphoto{
     height: 162px;

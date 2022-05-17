@@ -11,27 +11,32 @@
     </head>
     <body >
         <header>
-            <div class="top">
-                <div class="t1">
-                    <ul class="ut1">
-                        <li><a href="">BEST SELLER</i></a> </li>
-                        <li><a href="">CURRENCY SELECTOR<i class="fa-solid fa-angle-down"></i></a> </li>
-                        <li><a href="">GOLD RATE<i class="fa-solid fa-angle-down"></i></a> </li>
-                    </ul>
-                </div>
-                <div class="t2">
-                    <ul class="ut2">
-                        <li><a href="login.html">LOGIN</a> </li>
-                        <li><a href="">ENCIRCLE</a> </li>
-                        <li><a href="">GOLDEN HARVEST</a> </li>
-                        <li><a href="">BOOK AN APPOINTMENT</a> </li>
-                        <li><a href="">WISHLIST</a> </li>
-                        <li><a href="">CART</a> </li>
-                    </ul>
-                </div>
+            <div id="navbr">
+            <div class="nv">
+                
+                <ul class="ul">
+                    <li><a href="">BEST SELLER</i></a> </li>
+                    <li><a href="">CURRENCY SELECTOR<i class="fa-solid fa-angle-down"></i></a> </li>
+                    <li><a href="">GOLD RATE<i class="fa-solid fa-angle-down"></i></a> </li>
+                 
+                 
+                    <li><a href="">LOGIN</a> </li>
+                    <li><a href="">ENCIRCLE</a> </li>
+                    <li><a href="">GOLDEN HARVEST</a> </li>
+                    <li><a href="">BOOK AN APPOINTMENT</a> </li>
+                    <li><a href="">WISHLIST</a> </li>
+                    <li><a href="">CART</a> </li>
+                </ul>
+                
             </div>
-            <nav class="navbar navbar-expand-md  bg-light navbar-dark $zindex-sticky: 1020;" style="width:100%; margin-top: 50px;" id="botnav">
+
+                    
+                                    
+              <nav class="navbar navbar-expand-md  bg-light navbar-dark " style="width:100%;height: 65px;  border-top: 1px solid black;
+              margin-top: 50px;">
+                
                 <div class="container-fluid ">
+                   
                     <a class="navbar-brand" href="#"><img src="https://i.ibb.co/s6MBTx5/Tanishq-Logo.webp" alt="logo"></a>
                               <button class="navbar-toggler bg-dark" id="but" type="button"  data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                                 <span class="navbar-toggler-icon"></span>
@@ -181,6 +186,23 @@
                     </div>
                 </div>
             </nav>
+        </div>
+
+        <script>
+                 
+                            var prevScrollpos = window.pageYOffset;
+                            window.onscroll = function() {
+                            var currentScrollPos = window.pageYOffset;
+                              if (prevScrollpos > currentScrollPos) {
+                                document.getElementById("navbr").style.top = "0";
+                              } else {
+                                document.getElementById("navbr").style.top = "-67px";
+                              }
+                              prevScrollpos = currentScrollPos;
+                            }
+                           
+           
+            </script>
             <!--            <div class="bottom">
                 <div class="b1">
                     <img src="https://i.ibb.co/s6MBTx5/Tanishq-Logo.webp" alt="tanishq">
