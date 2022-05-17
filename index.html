@@ -38,7 +38,15 @@ prevScrollpos = currentScrollPos;
                         <li><a href="">GOLDEN HARVEST</a> </li>
                         <li><a href="">BOOK AN APPOINTMENT</a> </li>
                         <li><a href="">WISHLIST</a> </li>
-                        <li><a href="">CART</a> </li>
+                        <li><a href="">  <button style="    height: 21px;
+                            width: 37px;
+                            background-color: black;" onclick="changemode()"></button></a> </li>
+                        <script>
+                            function changemode(){
+                                let mybody = document.body;
+                                mybody.classList.toggle('mydark')
+                            }
+                        </script>
                     </ul>
                 </div>
                 
@@ -191,7 +199,7 @@ prevScrollpos = currentScrollPos;
                                     
                                                 function showPosition(data){
                                                     console.log(data)
-                                                    sessionStorage.setItem('data',data)
+                                                        sessionStorage.setItem('data',data)
                                                     // x.innerText=`Latitude is ${data.coords.latitude} & Longitude is ${data.coords.longitude}`
                                                     let latitude = data.coords.latitude;
                                                     let longitude = data.coords.longitude
